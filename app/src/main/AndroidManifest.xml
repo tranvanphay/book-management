@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hades.lab1_da">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo11"
+        android:label="Quản lý sách"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ActivityLoai" />
+        <activity android:name=".ActivitySach" />
+        <activity android:name=".ActivityHoaDon" />
+        <activity android:name=".ActivityBanChay" />
+        <activity android:name=".ActivityThongKe" />
+        <activity android:name=".ActivityWebsite" />
+        <activity android:name=".ActivityAddUser" />
+        <activity android:name=".ActivityHoaDonChiTiet"></activity>
+    </application>
+
+</manifest>
